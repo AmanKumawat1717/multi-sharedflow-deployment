@@ -62,10 +62,10 @@
                                 <resource>
                                     <directory>sharedflows/${sf_name}/sharedflowbundle</directory>
 				    <filtering>true</filtering>
-                                </resource>
 				    <includes>
 					<include>**/*</include>
 				    </includes>
+                                </resource>
                             </resources>
                         </configuration>
                     </execution>
