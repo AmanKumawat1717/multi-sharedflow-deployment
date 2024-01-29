@@ -4,7 +4,7 @@
     <version>1.0</version>
     <modelVersion>4.0.0</modelVersion>
     <groupId>apigee</groupId>
-    <artifactId>1234</artifactId>
+    <artifactId>1235</artifactId>
     <name>${sf_name}</name>
     <packaging>pom</packaging>
     <pluginRepositories>
@@ -57,7 +57,7 @@
                         <configuration>
                             <overwrite>true</overwrite>
                             <encoding>UTF-8</encoding>
-                            <outputDirectory>${basedir}/target</outputDirectory>
+                            <outputDirectory>${basedir}/target/sharedflowbundle</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>sharedflows/${sf_name}/sharedflowbundle</directory>
@@ -92,7 +92,7 @@
                 <artifactId>maven-clean-plugin</artifactId>
                 <version>2.5</version>
             </plugin>
-	    <!-- <plugin>
+	    <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
                 <version>3.2.0</version>
@@ -110,7 +110,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin> -->
+            </plugin>
         </plugins>
     </build>
 </project>
