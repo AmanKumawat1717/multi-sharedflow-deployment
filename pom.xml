@@ -57,7 +57,7 @@
                         <configuration>
                             <overwrite>true</overwrite>
                             <encoding>UTF-8</encoding>
-                            <outputDirectory>${basedir}/target</outputDirectory>
+                            <outputDirectory>${basedir}/target/sharedflowbundle</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>sharedflows/${sf_name}/sharedflowbundle</directory>
