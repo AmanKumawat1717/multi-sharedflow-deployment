@@ -60,8 +60,11 @@
                             <outputDirectory>${basedir}/target/sharedflowbundle</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>sharedflows/${sf_name}/sharedflowbundle</directory>
+                                    <directory>sharedflows/${sf_name}</directory>
                                 </resource>
+				    <includes>
+					<include>sharedflowbundle/**</include>
+				    </includes>
                             </resources>
                         </configuration>
                     </execution>
