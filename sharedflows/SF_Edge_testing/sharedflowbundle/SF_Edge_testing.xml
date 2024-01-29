@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="2" name="SF_Edge_testing">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1705035003586</CreatedAt>
+    <CreatedBy>payal.gehlot@neosalpha.com</CreatedBy>
+    <Description>undefined</Description>
+    <DisplayName>SF_Edge_testing</DisplayName>
+    <LastModifiedAt>1705035003586</LastModifiedAt>
+    <LastModifiedBy>payal.gehlot@neosalpha.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:02b9cfb167633b02b306e623f9465b1af5365d853c61fe6e5f32ccb3b13d0b32741679d001a4f88e1fee4af1a2d5cb6fe84d47ec9996a3227f3bef1dd43f25fc</ManifestVersion>
+    <Policies>
+        <Policy>Quota-1</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>
